@@ -1,0 +1,7 @@
+name: API REST CRUCICLUB
+tasks:
+  start:
+    command: node bin/www
+    baseUrl: http://localhost:38080
+ignoreRequests:
+- OPTIONS *

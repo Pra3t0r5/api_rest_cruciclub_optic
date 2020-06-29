@@ -1,0 +1,11 @@
+{
+   "_valores_entorno_validos":"development,production",
+   "entorno": "development",
+   "development":{
+      "mp_token":"TEST"
+
+   },
+   "production":{
+      "mp_token":"APP_USR"
+   }
+}
