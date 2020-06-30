@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run pm2 && pm2 flush && pm2 log api",
-    "pm2": "pm2 start pm2-env.config.js --only api-rest"
+    "pm2": "pm2 start pm2-env.config.js --only api-rest && api run pm2-start"
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
