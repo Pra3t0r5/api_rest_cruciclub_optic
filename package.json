@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run pm2 && pm2 flush && pm2 log api",
-    "pm2": "pm2 start pm2-env.config.js --only api-rest && api run pm2-start"
+    "start": "npm run pm2 && pm2 flush && pm2 log api-rest",
+    "pm2": "pm2 start pm2-env.config.js --only api-rest"
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
@@ -16,12 +16,12 @@
     "helmet": "^3.15.1",
     "http-errors": "~1.6.2",
     "jsonwebtoken": "^8.5.0",
-    "mercadopago": "^1.1.0",
+    "mercadopago": "^1.3.2",
     "morgan": "~1.9.0",
     "mysql2": "^1.6.5",
     "pm2": "^4.4.0",
     "sequelize": "^4.43.0",
-    "twilio": "^3.30.3",
+    "twilio": "^3.48.0",
     "winston": "^3.2.1"
   }
 }

@@ -12,7 +12,7 @@ module.exports = {
       "package*",
       ".git*",
       ".vscode",
-      ".optic",
+      ".optic*",
       "optic.yml"
     ],
     env: {
